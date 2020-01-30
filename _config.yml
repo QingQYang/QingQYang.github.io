@@ -1,5 +1,5 @@
 
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: mmistakes/minimal-mistakes@4.18.1
 
 plugins:
   - jekyll-include-cache
