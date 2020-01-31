@@ -1,8 +1,8 @@
 # main links
 main:
   - tilte: "HOME"
-    url: /index/
+    url: /
   - tilte: "BLOG"
-    url: /year-archive/
+    url: /blog/
   - title: "PUBLICATION"
     url: /publication/
