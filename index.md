@@ -1,2 +1,5 @@
-
-Test Page.
+---
+layout: splash
+permalink: /
+---
+Test Home Page.
