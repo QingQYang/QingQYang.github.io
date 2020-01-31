@@ -11,6 +11,8 @@ search: true
 masthead_title: "Qingqing Yang (楊 青青)"
 
 # Publish Settings
+include: ["_pages"]
+
 defaults:
   # _posts
   - scope:
