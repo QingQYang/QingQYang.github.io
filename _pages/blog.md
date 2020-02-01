@@ -1,7 +1,7 @@
 ---
 layout: full-width
 title: Blog
-permlink: /blog
+permalink: /blog
 # Note that this index page uses a full-width layout!
 ---
 
