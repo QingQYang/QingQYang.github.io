@@ -4,11 +4,11 @@
     <a href="{{site.baseurl}}/"><img class="badge"
 				     src="{{site.baseurl}}/assets/img/badge_1.png" alt="QqY"></a>
     {% for item in site.data.navigation %}
-    {% if page.url == item.link %}
-    <a class="active" href="{{item.link | prepend: site.baseurl}}"
-       class="active">{{item.name}}</a>
+    {% if page.url == item.url %}
+    <a class="active" href="{{item.url}}"
+       class="active">{{item.title}}</a>
     {% else %}
-    <a href="{{item.link | prepend: site.baseurl}}">{{item.name}}</a>
+    <a href="{{item.url}}">{{item.title}}</a>
     {% endif %}
     {% endfor %}
   </nav>

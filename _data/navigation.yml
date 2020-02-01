@@ -1,6 +1,6 @@
-- name: "HOME"
-  link: /
-- name: "BLOG"
-  link: /blog
-- name: "PUBLICATION"
-  link: /publication
+- title: "HOME"
+  url: /
+- title: "BLOG"
+  url: /blog.html
+- title: "PUBLICATION"
+  url: /publication.html
