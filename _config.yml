@@ -25,7 +25,8 @@ liquid:
 markdown: kramdown
 highlighter: rouge
 lsi: false
-incremental: false
+# incremental: false
+excerpt_separator: <!--more-->
 
 # Markdown Processing
 kramdown:

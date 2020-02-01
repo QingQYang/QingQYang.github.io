@@ -22,12 +22,15 @@
 
 /* clearfix hack after Cederholm (group class name) */
 .group:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
-html, body { height: 100%; }
+html,
+body {
+    height: 100%;
+}
 
 // First significant deviation from CSS on tufte.css site - variable font size as browser width expands or contracts
 //html { font-size: 15px; }
@@ -53,36 +56,37 @@ html{
 
 // sets link style according to values in _settings.scss
 .mathblock{
-  font-size: 1.3rem;
+    font-size: 1.3rem;
 }
+
 a {
-  color: $contrast-color;
-  text-decoration: none;
+    color: $contrast-color;
+    text-decoration: none;
 }
 
-p > a { @if $link-style == underline
-    {
-      color: $text-color;
-      text-decoration: none;
-      border-bottom: 1px solid #777;
-      padding-bottom: 1px;
+p > a {
+    @if $link-style == underline {
+	color: $text-color;
+	text-decoration: none;
+	border-bottom: 1px solid #777;
+	padding-bottom: 1px;
+    } @else {
+	color: $contrast-color;
+	text-decoration: none;
     }
-    @else
-    {
-      color: $contrast-color;
-      text-decoration: none;
-    }
-  }
+}
 
-body { width: 87.5%;
-       margin-left: auto;
-       margin-right: auto;
-       padding-left: 12.5%;
-       font-family: et-bembo, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-       background-color: $bg-color;
-       color: $text-color;
-       max-width: 1400px;
-       counter-reset: sidenote-counter; }
+body {
+    width: 87.5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 6.8%;
+    font-family: et-bembo, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    background-color: $bg-color;
+    color: $text-color;
+    max-width: 1400px;
+    counter-reset: sidenote-counter;
+}
 
 // --------- Typography stuff -----------//
 // added rational line height and margins ala http://webtypography.net/intro/
@@ -358,7 +362,7 @@ header > nav  a{
   margin-top: 0;
   margin-bottom: 0;
   padding-right: 2rem;
-  //margin-left: 1rem;
+  // margin-left: 0;
   vertical-align: baseline;
 }
 header > nav a img{
@@ -393,14 +397,18 @@ ul.footer-links li{
 
 //Full width page styling stuff
 
-body.full-width, .content-listing, ul.content-listing li.listing{ width: 90%;
-       margin-left: auto;
-       margin-right: auto;
-       padding: 0% 5%;
-
+body.full-width,
+.content-listing,
+ul.content-listing li.listing {
+    width: 87.5%;
+    margin-left: auto;
+    margin-right: auto;
+    //padding: 0% 5%;
+    padding-left: 6.8%;
 }
+
 .full-width article p{
-  width: 90%;
+  width: 87.5%;
 }
 
 
