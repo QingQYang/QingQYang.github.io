@@ -1,8 +1,6 @@
-# main links
-main:
-  - title: "HOME"
-    url: /
-  - title: "BLOG"
-    url: /blog/
-  - title: "PUBLICATION"
-    url: /publication/
+- name: "HOME"
+  link: /
+- name: "BLOG"
+  link: /blog/
+- name: "PUBLICATION"
+  link: /publication/
