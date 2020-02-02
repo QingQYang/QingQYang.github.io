@@ -1,20 +1,12 @@
----
-# this ensures Jekyll reads the file to be transformed into CSS later
-# only Main files contain this front matter, not partials.
----
-/*****************************************************************************/
+/*******************************************************************/
 /*
 /* Tufte Jekyll theme /* Based on Tufte CSS by Dave Liepmann (
  * https://github.com/edwardtufte/tufte-css )
 /*
 /* The README.md will show you how to set up your site along with other goodies
-/*****************************************************************************/
+/********************************************************************/
 
 // Imports to create final
-
-@import "fonts";
-@import "settings";
-@import "syntax-highlighting";
 
 // Global Resets
 //
@@ -530,13 +522,14 @@ hr.slender {
 /* --- Icomoon icon fonts CSS --*/
 @font-face {
   font-family: 'icomoon';
-  src:url('../fonts/icomoon.eot?rgwlb8');
-  src:url('../fonts/icomoon.eot?#iefixrgwlb8') format('embedded-opentype'),
-    url('../fonts/icomoon.woff?rgwlb8') format('woff'),
-    url('../fonts/icomoon.ttf?rgwlb8') format('truetype'),
-    url('../fonts/icomoon.svg?rgwlb8#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?maxtik');
+  src:  url('../fonts/icomoon.eot?maxtik#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?maxtik') format('truetype'),
+    url('../fonts/icomoon.woff?maxtik') format('woff'),
+    url('../fonts/icomoon.svg?maxtik#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
+  font-display: block;
 }
 
 [class^="icon-"], [class*=" icon-"] {
@@ -554,52 +547,85 @@ hr.slender {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-pencil:before {
-  content: "\e600";
+.icon-home:before {
+  content: "\e900";
 }
-.icon-film:before {
-  content: "\e60f";
+.icon-podcast:before {
+  content: "\e91c";
 }
-.icon-calendar:before {
-  content: "\e601";
+.icon-books:before {
+  content: "\e920";
 }
-.icon-link:before {
-  content: "\e602";
+.icon-library:before {
+  content: "\e921";
 }
-.icon-info:before {
-  content: "\e603";
+.icon-folder:before {
+  content: "\e92f";
 }
-.icon-cancel-circle:before {
-  content: "\e604";
+.icon-folder-open:before {
+  content: "\e930";
 }
-.icon-checkmark-circle:before {
-  content: "\e605";
+.icon-location2:before {
+  content: "\e948";
 }
-.icon-spam:before {
-  content: "\e606";
+.icon-tv:before {
+  content: "\e95b";
+}
+.icon-bubbles2:before {
+  content: "\e96d";
 }
 .icon-mail:before {
-  content: "\e607";
+  content: "\ea83";
 }
-.icon-googleplus:before {
-  content: "\e608";
+.icon-mail3:before {
+  content: "\ea85";
 }
-.icon-facebook:before {
-  content: "\e609";
+.icon-mail4:before {
+  content: "\ea86";
 }
-.icon-twitter:before {
-  content: "\e60a";
+.icon-sina-weibo:before {
+  content: "\ea9a";
 }
-.icon-feed:before {
-  content: "\e60b";
+.icon-rss2:before {
+  content: "\ea9c";
 }
-.icon-flickr:before {
-  content: "\e60c";
+.icon-steam2:before {
+  content: "\eaad";
 }
 .icon-github:before {
-  content: "\e60d";
+  content: "\eab0";
 }
-.icon-box-add:before {
-  content: "\e60e";
+.icon-trello:before {
+  content: "\eab3";
+}
+.icon-tumblr2:before {
+  content: "\eaba";
+}
+.icon-tux:before {
+  content: "\eabd";
+}
+.icon-appleinc:before {
+  content: "\eabe";
+}
+.icon-skype:before {
+  content: "\eac5";
+}
+.icon-reddit:before {
+  content: "\eac6";
+}
+.icon-linkedin:before {
+  content: "\eac9";
+}
+.icon-pinterest:before {
+  content: "\ead1";
+}
+.icon-chrome:before {
+  content: "\ead9";
+}
+.icon-firefox:before {
+  content: "\eada";
+}
+.icon-git:before {
+  content: "\eae7";
 }
 /*-- End of Icomoon icon font section --*/
