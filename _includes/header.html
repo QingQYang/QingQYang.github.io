@@ -7,6 +7,9 @@
     {% if page.url == item.url %}
     <a class="active" href="{{item.url}}"
        class="active">{{item.title}}</a>
+    {% elsif page.url contains "blog" and item.url == "/blog" %}
+    <a class="active" href="{{item.url}}"
+       class="active">{{item.title}}</a>
     {% else %}
     <a href="{{item.url}}">{{item.title}}</a>
     {% endif %}
